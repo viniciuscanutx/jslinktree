@@ -6,4 +6,4 @@ Contém alguns links que ainda não foram referênciados.
 
 
 <div align="center">
-<img src='https://user-images.githubusercontent.com/84680268/210235984-4a8be862-11a4-452f-baa6-82a180f5b189.png' width=800px />
+<img src='https://raw.githubusercontent.com/viniciuscanutx/jslinktree/main/Captura%20de%20tela%20de%202023-04-18%2023-24-31.png' width=800px />
