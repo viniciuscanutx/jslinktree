@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Raleway:wght@600&display=swap');
+
+
+:root {
+  --background: #2e2d2d;
+  --green-500: #ffffff;
+  --white: #ffffff;
+  --gray-300: #888585;
+}
+
+* {
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', 'Quicksand', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--background);
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+.avatar {
+  border: 3px solid #dadada;
+  margin-top: 3vh;
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  margin-bottom: 0.8rem;
+}
+
+.avatar:hover{
+  transition: 0.8s;
+  border: 3px solid #185a91;
+} 
+
+.ico-glass {
+  width: 30px;
+}
+
+.my-links {
+  font-family: 'Quicksand', sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: fit-content;
+  margin-top: 40px;
+  margin-bottom: -8px;
+  position: relative;
+}
+
+h1,
+h2 {
+  color: var(--gray-300);
+  margin-top: 0px;
+}
+
+h1 {
+  color: #dadada;
+  margin-top: 16px;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.my-extra-links {
+  font-family: 'Quicksand', sans-serif;
+  padding: 24px 16px;
+}
+
+.my-extra-links li {
+  border: 1px solid var(--gray-300);
+  border-radius: 20px;
+  cursor: pointer;
+  padding: 8px 16px;
+  text-align: center;
+  transition: background-color .6s;
+}
+
+.my-extra-links li:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.my-extra-links li a {
+  margin-top: 1.9rem;
+  font-family: 'Quicksand', sans-serif;
+  color: var(--gray-300);
+  text-decoration: none;
+  transition: color .6s;
+}
+
+.my-extra-links li.divisor {
+  cursor: initial;
+  border: none;
+  color: #dadada;
+  margin-bottom: 10px;
+}
+
+.my-extra-links li:not(.divisor):hover {
+  background-color: var(--gray-300);
+}
+
+.my-extra-links li:not(.divisor):hover a {
+  color: var(--background);
+}
+
+.social-media{
+  margin-top: 0rem;
+  margin-right: 0.4rem;
+}
+
+.social-media a{
+
+  color: white;
+  padding: 20px;
+  margin-right: 4px;
+  font-size: 30px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.social-media a:hover{
+  transition: 0.6s;
+  color: #185a91;
+}
+
+.social-media li.divisor {
+  cursor: initial;
+  text-align: center;
+  border: none;
+  color: #dadada;
+  margin-top: 6px;
+  margin-bottom: 26px;
+}
